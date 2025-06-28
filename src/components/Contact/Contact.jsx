@@ -12,8 +12,8 @@ function Contact() {
         </p>
 
         
-          <p><strong>Address:</strong> Akshaya Bhavan, Main Street, Coimbatore, Tamil Nadu</p>
-          <p><strong>Phone:</strong> +91 98765 43210</p>
+          <p><strong>Address:</strong> Akshaya Bhavan, Main Street, Tindivanam, Tamil Nadu</p>
+          <p><strong>Phone:</strong> +91 6381046306</p>
           <p><strong>Email:</strong> contact@akshayabhavan.in</p>
           <p><strong>Opening Hours:</strong> 7:00 AM – 10:00 PM (All Days)</p>
         
