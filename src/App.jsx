@@ -6,6 +6,7 @@ import About from './components/About/about';
 import Menu from './components/Menu/menu';
 import Login from './components/Login/login';
 import Signup from './components/Login/signup';
+import Contact from './components/Contact/Contact';
 
 function AppContent() {
   const location = useLocation();
@@ -26,6 +27,7 @@ function AppContent() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   );

@@ -30,22 +30,26 @@
 
 .menu-section ul,
 .menu-grid ul {
-  list-style: none;
+  display: grid;
   padding: 0;
 }
 
 .menu-section li,
 .menu-grid li {
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
   margin: 0.5rem 0;
-  border-bottom: 1px dashed #444;
+  
   padding-bottom: 4px;
 }
 
 .menu-section li span,
 .menu-grid li span {
   color: #ffa500;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+  list-style: none;
 }
 
 .menu-grid {
