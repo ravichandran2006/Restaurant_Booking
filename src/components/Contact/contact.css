@@ -1,0 +1,28 @@
+*{
+  margin-top: 0%;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  
+  padding: 2rem;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0%;
+}
+
+
+
+.contact-content {
+  text-align: center;
+}
+
+.contact-content h2 {
+  font-size: 2rem;
+  color: #d35400;
+}
+
+.contact-content p {
+  font-size: 1rem;
+  color: #c6c2c2;
+}
